@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Open-CMSIS-Pack/devtools/schemas/projmgr/0.9.4/tools/projmgr/schemas/cproject.schema.json
+
+project:
+
+  components:
+    - component: ARM::CMSIS:CORE
+    - component: ARM::Device:Startup&Baremetal
+    - component: ARM::Device:Definition
+
+  groups:
+    - group: Documentation
+      files: 
+        - file: ./README.md
+    - group: App
+      files:
+        - file: ./Blinky.c
+        - file: ./Blinky.h
