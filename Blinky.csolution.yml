@@ -2,7 +2,7 @@
 
 solution:
   packs:
-    - pack: ARM::CMSIS
+    - pack: ARM::CMSIS@5.9.0
     - pack: ARM::V2M_MPS3_SSE_300_BSP@1.2.0
 
   target-types:
