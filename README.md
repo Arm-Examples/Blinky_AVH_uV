@@ -1,4 +1,5 @@
 # Blinky project for Arm FVP/AVH
+[![CMSIS Compliance](https://img.shields.io/github/actions/workflow/status/Arm-Examples/Blinky_AVH_uV/ci.yml?logo=arm&logoColor=0091bd&label=CMSIS%20Compliance)](https://www.keil.arm.com/cmsis)
 
 The **Blinky** project can be used to verify the basic tool setup. It is compliant to the [Cortex Microcontroller Software Interface Standard (CMSIS)](https://arm-software.github.io/CMSIS_5/General/html/index.html).
 
